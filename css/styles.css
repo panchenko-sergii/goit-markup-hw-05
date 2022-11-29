@@ -129,6 +129,7 @@ section {
 }
 
 .header-nav-link-curent::after {
+	padding: 32px 0;
 	position: absolute;
 	bottom: 0;
 	transition: 250ms var(--main-trans-func);
@@ -143,12 +144,6 @@ section {
 .header-nav-link:hover,
 .header-nav-link:focus {
 	color: var(--color-link-blue);
-}
-
-.header-nav-link:hover::after,
-.header-nav-link:focus::after {
-	opacity: 1;
-	transform: translateY(0%);
 }
 
 .header-contact {
