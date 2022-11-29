@@ -115,13 +115,13 @@ section {
 }
 
 .header-nav-link-curent {
+	padding: 32px 0;
 	position: relative;
 	color: var(--color-link-blue);
 	text-decoration: none;
 }
 
 .header-nav-link {
-	position: relative;
 	color: var(--color-text-black);
 	text-decoration: none;
 	display: inline-block;
@@ -129,7 +129,6 @@ section {
 }
 
 .header-nav-link-curent::after {
-	padding: 32px 0;
 	position: absolute;
 	bottom: 0;
 	transition: 250ms var(--main-trans-func);
